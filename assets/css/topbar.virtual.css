@@ -237,8 +237,20 @@
   padding: 20px;
   background-color: #fff;
   border: 0;
+  transition: transform 0.3s ease; 
 }
 
+.card-service:hover {
+  border: 1px solid #ff1900;
+  transform: scale(1.1); 
+}
+.item_caracteristica{
+  color: #00000099;
+}
+
+.item_caracteristica:hover{
+  color: #ff000099;
+}
 .card-service .icon {
   display: inline-block;
   margin: 0 auto;
